@@ -5,3 +5,122 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: MintCream;
+  font-size: 16px;
+  line-height: 1.4em;
+
+}
+
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo img {
+  width: 70%;
+  top: 0%;
+}
+
+.work {
+  width: 90%;
+}
+
+.client {
+  width: 90%;
+  padding-top: 30px;
+}
+
+.buttom-started {
+  width: 98%;
+  text-align: center;
+  background-color: #192592;
+  color: white;
+  padding:15px 30px;
+  margin: 1%;
+  font-family: 'Poppins', sans-serif;
+ }
+
+ .buttom-discover {
+  width: 98%;
+  text-align: center;
+  background-color: white;
+  
+  color:  #192592;
+  padding:15px 30px;
+  margin: 1%;
+  font-family: 'Poppins', sans-serif;
+ }
+
+ .menu ul {
+  list-style: none;
+  background: CadetBlue;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+}
+
+.menu ul a { 
+  text-align: center; 
+  padding: 10px;
+  color: grey;
+  display: block;
+  border-top: 1px solid rgba(255,255,255,0.3); 
+  border-bottom: 1px solid rgba(0,0,0,0.1); 
+  text-decoration: none;
+}
+
+.email {
+  width: 75%;
+  background-color: white;
+  color:  gray;
+  padding:15px 30px;
+  margin: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+
+@media (min-width: 768px) {
+  
+
+  body {
+    font-size: 1.1em;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .menu ul {
+    
+    justify-content: space-around;
+  }
+
+  .flex-container allclients {
+    flex-basis: 48%;
+  }
+}
+
+
+@media (min-width: 1100px) { 
+
+  .flex-container article {
+    flex-basis: 24%;
+  }
+
+  .menu ul {
+    justify-content: flex-end;
+  }
+
+}
